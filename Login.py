@@ -50,4 +50,6 @@ class login(BaseFunc):
     def click_loginBtn(self):
         self.get_logn_btn().click()
         time.sleep(1)
-
+    def click_loginBtn2(self):
+        self.get_logn_btn().click()
+        time.sleep(1)
